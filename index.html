@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">J<span>ayshree.</span></div>
+                <ul class="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> <!-- Close Icon -->
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i> <!-- Menu Icon -->
+            </nav>
+            <div class="header-text">
+                <p> Frontend Developer</p>
+                <h1>Hi, I'm <span> jayshree </span> <br> odedara From Mumbai</h1>
+
+            </div>
+        </div>
+    </div>
+    <div>
+   <!----------------about----------------->     
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/image.jpg2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Front-end development is the process of creating a user interface (UI) for websites and web applications. It involves using markup languages and other tools to build the user side of a website, where users interact with buttons, text, and alignments. The goal of front-end development is to create a visually appealing, functional, and user-friendly experience. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Developer</span><br>Responsive WebApp design</li>
+                                <li><span>UI/UX</span><br>Designing Interfaces</li>
+                                <li><span>Web Development</span><br>Website Development</li>
+                                <li><span>React js Development</span><br>Software Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025 - Current</span><br>Frontend Developer at Inheritx Solutions Pvt Ltd</li>
+                                <li><span>2021 - 2023</span><br>Frontend Executive at coin Digital Ltd.</li>
+                                <li><span>2019 - 2020</span><br>Internship at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>M.SC IT from Porbander</li>
+                                <li><span>2020</span><br>B.com IT from Porbandar</li>
+                                <li><span>2017</span><br>12th from Porbandar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services------------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+
+                    <h2>Web Design</h2>
+                    <p>Writing, designing, and editing website content
+                        Understanding UI, cross-browser compatibility, and general web functions and standards
+                        Managing the site's technical aspects, such as its performance and capacity to handle traffic
+                        Developing new features and maintaining existing ones.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-palette"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>A UI/UX design course teaches students how to create user-friendly and visually appealing digital products.UI/UX design combines the disciplines of user interface (UI) and user experience (UX) design. UI designers focus on a product's appearance, while UX designers focus on how it works and meets user needs. .</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+
+                    <h2>App Design</h2>
+                    <p>App design is the visual and interactive elements that make up the look and feel of a mobile application. It's a combination of user interface (UI) and user experience (UX) design.App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+     </div>
+     <!---------------------portfolio------------------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connectes you to the talented prople around the wold.Dowload it from play store.</p>
+                        <a href="#"><i class="fas fa-link"></i> <!-- Link Icon -->
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connectes you to the talented prople around the wold.Dowload it from play store.</p>
+                        <a href="#"><i class="fas fa-link"></i> <!-- Link Icon -->
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connectes you to the talented prople around the wold.Dowload it from play store.</p>
+                        <a href="#"><i class="fas fa-link"></i> <!-- Link Icon -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!--------------contact----------------->
+     <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> odedarajayshree405@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>9123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i> <!-- Facebook Icon --></a>
+                        <a href=""><i class="fab fa-twitter"></i> <!-- Twitter Icon --> </a>
+                        <a href=""><i class="fab fa-instagram"></i> <!-- Instagram Icon --></a>
+                        <a href=""><i class="fab fa-linkedin"></i> <!-- LinkedIn Icon --></a>
+                    </div>
+                    <a href="images/my-cv.pdf" Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Odedarajayshree <i class="fas fa-heart"></i> Frontend Developer</p>
+        </div>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
